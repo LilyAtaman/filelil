@@ -1,3 +1,40 @@
 .logo {
     width: 300px;
 }
+
+.nav-link {
+    color: black;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-link {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+.email-input {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.page-inter {
+    text-align: center;
+}
+
+.page-title {
+    text-align: center;
+    color: black;
+}
+
+.btn {
+    display: inline-block;
+    margin: 15px auto 0;
+    background: white;
+}
