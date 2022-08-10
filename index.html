@@ -4,9 +4,11 @@
 </head>
 
 <body>
-    <header class="page-header">
-        <img class="logo" src=/img/logonew-min.png" alt="logo">
-        <nav>
+    <header id="header" class="page-header">
+        <div>
+            <img class="logo" src="img/logonew-min.png" alt="logo">
+        </div>
+        <nav id="nav-bar">
             <ul class="header-link">
                 <li>
                     <a class="nav-link" href="#features">Features</a>
@@ -20,34 +22,55 @@
             </ul>
         </nav>
     </header>
-    <div class="page-inter">
-        <h2 class="page-title">Handcrafted, home-made masterpieces</h2>
-        <input class="email-input" type="email">
-        <button class="btn" type="submit">
-            Get Started
-        </button>
+    <div class="page-intro">
+        <section id="hero">
+            <h2 class="page-title">Handcrafted, home-made masterpieces</h2>
+            <input class="email-input" type="email">
+            <button class="btn" type="submit">
+                Get Started
+            </button>
+        </section>
     </div>
-    <div>
-        <img class="feature-icon" src="/img/shine.jpg" alt="">
-        <h2 class="feature-icon">Premium Materials</h2>
-        <p class="feature-text">Our trombones use the shiniest brass which is sourced locally. This will increase the
-            longevity of your purchase.</p>
+
+    <section>
+        <div class="feature">
+            <img class="feature-icon" src="/img/icons/approve-hand-like.svg" alt="like">
+            <div>
+                <h2 class="feature-title">Premium Materials</h2>
+                <p class="feature-text">Our trombones use the shiniest brass which is sourced locally. This will
+                    increase
+                    the longevity of your purchase.</p>
+            </div>
+        </div>
+
+
+        <div class="feature">
+            <img class="feature-icon" src="/img/icons/delivery-package-shipping-2.svg" alt="car">
+            <div>
+                <h2 class="feature-title">Fast Shipping</h2>
+                <p class="feature-text">We make sure you recieve your trombone as soon as we have finished making it. We
+                    also
+                    provide free returns if you are not satisfied.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <img class="feature-icon" src="/img/icons/quality-premium-certificate-svgrepo-com.svg" alt="award">
+            <div>
+                <h2 class="feature-title">Quality Assurance</h2>
+                <p class="feature-text">For every purchase you make, we will ensure there are no damages or faults and
+                    we
+                    will
+                    check and test the pitch of your instrument.</p>
+            </div>
+        </div>
+    </section>
+    <div class="video">
+        <iframe width="570" height="400" src="https://www.youtube.com/embed/aeCX_ifWmho" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
     </div>
-    <div>
-        <img class="feature-icon" src="" alt="">
-        <h2 class="feature-icon">Fast Shipping</h2>
-        <p class="feature-text">We make sure you recieve your trombone as soon as we have finished making it. We also
-            provide free returns if you are not satisfied.</p>
-    </div>
-    <div>
-        <img class="feature-icon" src="" alt="">
-        <h2 class="feature-icon">Quality Assurance</h2>
-        <p class="feature-text">For every purchase you make, we will ensure there are no damages or faults and we will
-            check and test the pitch of your instrument.</p>
-    </div>
-    <div>
-        <video src="https://www.youtube.com/watch?v=aeCX_ifWmho"></video>
-    </div>
+    <section class="products">
     <div class="card">
         <h3 class="card-title">VIOLIN</h3>
         <div class="card-price">600$</div>
@@ -75,13 +98,16 @@
         <div class="card-description">Lorem ipsum.</div>
         <button class="card-button">Select</button>
     </div>
+    </section>
     <footer class="page-footer">
-        <ul class="footer-list">
-            <li class="footer-link">Privacy</li>
-            <li class="footer-link">Terms</li>
-            <li class="footer-link">Contact</li>
-        </ul>
-        <div class="copyright">Copyright 2016, Original Trombones</div>
+        <div>
+            <ul class="footer-list">
+                <li class="footer-link">Privacy</li>
+                <li class="footer-link">Terms</li>
+                <li class="footer-link">Contact</li>
+            </ul>
+            <div class="copyright">Copyright 2016, Original Trombones</div>
+        </div>
     </footer>
 </body>
 

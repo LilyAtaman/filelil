@@ -4,6 +4,7 @@
 
 .nav-link {
     color: black;
+    display: flex;
 }
 
 .page-header {
@@ -19,12 +20,12 @@
 }
 
 .email-input {
-    display: block;
+    display: flex;
     margin: 0 auto;
     max-width: 300px;
 }
 
-.page-inter {
+.page-intro {
     text-align: center;
 }
 
@@ -36,5 +37,63 @@
 .btn {
     display: inline-block;
     margin: 15px auto 0;
-    background: white;
+    background: orange;
+}
+
+.feature {
+    display: flex;
+    align-items: left;
+}
+
+.feature-icon {
+    width: 100px;
+    margin-right: 25px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+
+}
+
+.card {
+    border: 1px solid;
+    width: 250px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.card-button {
+    display: inline-block;
+    background-color: gold;
+}
+
+.card-price {
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(250, 250, 217);
+}
+
+.card-title {
+    background-color: bisque;
+}
+
+.page-footer {
+    display: flex;
+    justify-content: right;
+    
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
 }
